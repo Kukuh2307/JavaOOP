@@ -20,7 +20,7 @@ class player {
         this.armor = armor;
     }
     void tampil(){
-        System.out.println("Nama ;" + this.nama);
+        System.out.println("Nama :" + this.nama);
         System.out.println("Health :" + this.health);
         this.weapon.tampil();
         this.armor.tampil();
