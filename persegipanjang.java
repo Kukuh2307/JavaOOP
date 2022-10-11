@@ -1,8 +1,8 @@
-class persegipanjang {
+class Persegip {
     private double panjang;
     private double lebar;
 
-    public persegipanjang(){
+    public Persegip(){
         panjang = 0;
     }
     private double luas(double p,double l){
@@ -27,7 +27,7 @@ class persegipanjang {
 
 public class persegipanjang{
     public static void main(String[] args) {
-     persegipanjang balok = new persegipanjang();
+     Persegip balok = new Persegip();
      balok.setpanjang(10);
      balok.setlebar(20);
      System.out.println("panjang :" + balok.getpanjang());

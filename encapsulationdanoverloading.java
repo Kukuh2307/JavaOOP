@@ -42,7 +42,7 @@ class mahasiswa {
       mhs1.tampil();
   
       mahasiswa mhs2 = new mahasiswa("Sandhika Galih");
-      mhs2.getNPM(2113020282);
+      mhs2.setNPM(2113020282);
       mhs2.tampil();
     }
   }
