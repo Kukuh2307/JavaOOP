@@ -23,7 +23,7 @@ class binatang {
         nama = inputnama;
         makanan = inputmakanan;
         habitat = inputhabitat;
-        
+
         System.out.println(nama);
         System.out.println(makanan);
         System.out.println(habitat);
