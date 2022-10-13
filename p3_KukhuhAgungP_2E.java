@@ -55,11 +55,20 @@ public static void main(String[] args) {
     tabung tabung1 = new tabung(10);
     tabung1.tampil();
 
+    // akan menampilkan output berupa method asli yang berada di kelas super
+    // "method kelas super jalan"
     KelasSuper example1 = new KelasSuper();
     example1.methodAsli();
     
     Subclass example2 = new Subclass();
+
+    // akan menampilkan output berupa method asli yang berada di sub kelas
+    // "method overided jalan"
     example2.methodAsli();
+
+    // akan menampilkan output berupa method pemanggil yang berada di sub kelas serta method asli yang berada di kelas super
+    // "Pemanggil method jalan"
+    // "method kelas super jalan"
     example2.methodPemanggil();
     }
 }
