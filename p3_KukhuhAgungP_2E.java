@@ -32,7 +32,7 @@ class tabung extends lingkarang{
         System.out.println("Luas lingkaran = "+hitungLuas());
         System.out.println("hitung keliling = "+hitungKeliling());
         System.out.println("luas selimut tabung = "+luasSelimut());
-        System.out.println("tinggi = "+this.tinggi);
+        System.out.println("tinggi = "+this.tinggi+"\n");
     }
 }
 
