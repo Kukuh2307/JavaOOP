@@ -1,4 +1,4 @@
-public class Main {
+public class Overriding {
     public static void main(String[] args) throws Exception {
         Hero hero1 = new Hero();
         hero1.name = "Saitama";

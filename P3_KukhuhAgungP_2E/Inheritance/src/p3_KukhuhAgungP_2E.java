@@ -1,3 +1,4 @@
+package P3_KukhuhAgungP_2E.Inheritance.src;
 class lingkarang{
     double radius;
 

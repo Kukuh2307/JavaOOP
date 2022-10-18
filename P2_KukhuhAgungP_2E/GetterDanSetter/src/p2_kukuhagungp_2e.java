@@ -1,9 +1,9 @@
-class persegipanjang {
+class Persegipanjang {
     private double panjang;
     private double lebar;
     
 
-    public persegipanjang(){
+    public Persegipanjang(){
         panjang = 0;
         lebar =  0;
     }
@@ -28,7 +28,7 @@ class persegipanjang {
 }
 public class p2_kukuhagungp_2e {
     public static void main(String[] args) {
-        persegipanjang balok = new persegipanjang();
+        Persegipanjang balok = new Persegipanjang();
         balok.setpanjang(10);
         balok.setlebar(20);
         System.out.println("panjang :" + balok.getpanjang());
