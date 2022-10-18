@@ -12,6 +12,8 @@ class pemain{
         pemain.jumlahPlayer++;
         this.nama = "player"+pemain.jumlahPlayer;
     }
+
+    // method untuk menampilkan data
     void tampil(){
         System.out.println("Nama : "+this.nama);
     }
