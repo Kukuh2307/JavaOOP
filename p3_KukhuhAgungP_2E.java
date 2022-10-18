@@ -71,4 +71,4 @@ public static void main(String[] args) {
     // "method kelas super jalan"
     example2.methodPemanggil();
     }
-}
+}   

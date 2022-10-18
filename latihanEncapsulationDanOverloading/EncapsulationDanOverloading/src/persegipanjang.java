@@ -33,6 +33,5 @@ public class persegipanjang{
      System.out.println("panjang :" + balok.getpanjang());
      System.out.println("lebar :" + balok.getluas());
      System.out.println("luas :" + balok.getluas());
-
     }
 }

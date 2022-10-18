@@ -35,7 +35,7 @@ class mahasiswa {
     }
   }
   
-  public class encapsulationdanoverloading {
+  public class EncapsulationDanOverloading {
     public static void main(String[] args) {
       mahasiswa mhs1 = new mahasiswa("Kukhuh Agung Prasetyo", "Teknik Informatika");
       mhs1.setNPM(2113020281);

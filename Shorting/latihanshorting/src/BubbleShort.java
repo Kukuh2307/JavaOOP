@@ -1,3 +1,4 @@
+
 public class BubbleShort {
     public static void main(String[] args) {
         int[] nilai = {99,53,62,14,51,67};

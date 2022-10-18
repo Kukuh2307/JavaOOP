@@ -1,10 +1,10 @@
-class binatang {
+class Binatang {
     String nama;
     String makanan;
     String habitat;
 
     // constructor
-    binatang(String nama,String makanan,String habitat){
+    Binatang(String nama,String makanan,String habitat){
         this.nama = nama;
         this.makanan = makanan;
         this.habitat = habitat;
@@ -20,9 +20,9 @@ class binatang {
         this.nama = nama;
     }
 }
-public class learn5 {
+public class latihanConstructor {
     public static void main(String[] args) {
-        binatang kaki2 = new binatang("bebek", "omnivora", "sungai");
+        Binatang kaki2 = new Binatang("bebek", "omnivora", "sungai");
         kaki2.tampil();
         kaki2.aturNama("elang");
         kaki2.tampil();

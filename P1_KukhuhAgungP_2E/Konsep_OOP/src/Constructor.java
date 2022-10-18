@@ -1,18 +1,17 @@
-// membuat class kendaraan dengan beberapa atribut
-class kendaraan {
+class kendaraan{
     String merek;
     String kecepatan;
     int jumlah_roda;
     String tahun_produksi;
 }
-// membuat class mahasiswa dengan beberapa atribut
-class mahasiswa {
+
+class Mahasiswa {
     String nama;
     String npm;
     String jurusan;
     String fakultas;
 }
-// membuat class binatang dengan beberapa atribut
+
 class binatang {
     String nama;
     String makanan;
@@ -30,8 +29,8 @@ class binatang {
     }
 }
 
-public class tugas1{ 
-    // membuat method untuk mencetak isian dari object motor
+
+public class Constructor{
     static void cetakkendaraan(){
         kendaraan motor = new kendaraan();
         motor.merek = "Honda";
@@ -45,12 +44,10 @@ public class tugas1{
         System.out.println(motor.tahun_produksi);
     }
 
-    public static void main(String[] args) {
-        // soal nomor 1
+    public static void main(String[] args) throws Exception {
         cetakkendaraan();
 
-        // soal nomor 2
-        mahasiswa mhs1 = new mahasiswa();
+        Mahasiswa mhs1 = new Mahasiswa();
         mhs1.nama = "Kukhuh Agung Prasetyo";
         mhs1.npm = "21130281";
         mhs1.jurusan = "Teknik Informatika";
@@ -61,7 +58,6 @@ public class tugas1{
         System.out.println(mhs1.jurusan);
         System.out.println(mhs1.fakultas);
 
-        // soal nomor 3
         binatang kaki4 = new binatang("harimau","daging","hutan");
         System.out.println("\nNomor 3");
         System.out.println(kaki4.nama);
