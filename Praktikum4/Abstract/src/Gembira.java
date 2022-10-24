@@ -6,6 +6,9 @@ public class Gembira extends EkspresiWajah {
         this.suara = suara;
         this.suasanaHati = suasanaHati;
     }
+    public String getKeterangan(){
+        return this.suasanaHati;
+    }
     public String bersuara(){
         String tawa = "Ketika gembira  suasana hati anda akan : "+this.suasanaHati+" dan saat tertawa suaranya :"+this.suara;
         return tawa;
