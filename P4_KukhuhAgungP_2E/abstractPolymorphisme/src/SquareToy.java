@@ -1,4 +1,4 @@
-public class SquareToy extends GeometryToy{
+public class SquareToy extends GeometryToy {
     double side;
 
     SquareToy(double side){
@@ -16,5 +16,4 @@ public class SquareToy extends GeometryToy{
     public double circumference(){
         return 4 * this.side;
     }
-
 }

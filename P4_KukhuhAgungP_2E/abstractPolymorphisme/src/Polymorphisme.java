@@ -1,4 +1,4 @@
-public class Main{
+public class Polymorphisme {
     static void object(){
         RectangleToy Rectangle1 = new RectangleToy(10, 20);
         SquareToy square1 = new SquareToy(30);

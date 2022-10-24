@@ -1,4 +1,4 @@
-public class RectangleToy extends GeometryToy{
+public class RectangleToy extends GeometryToy {
     double weight,height;
 
     RectangleToy(double weight,double height){
