@@ -1,4 +1,4 @@
-public class Motor {
+public class Motor implements Speedometer{
     public void tambahKecepatan(){
         System.out.println("Cara tambah kecepatan motor: ");
         System.out.println(" \t pindah ke gear yang lebih tinggi\n" + " \t dan gas motornya");
