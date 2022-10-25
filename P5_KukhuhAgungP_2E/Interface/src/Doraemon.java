@@ -2,7 +2,7 @@ public class Doraemon extends Hewan implements Manusia{
     public Doraemon(){
         super("Doraemon",2);
     }
-
+    // override dengan kelas induk hewan
     public void bersuara(){
         System.out.println("Hallo Doraemon.....");
     }
