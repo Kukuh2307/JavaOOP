@@ -1,4 +1,4 @@
-public class Pembeli {
+ public class Pembeli {
     public static void main(String[] args) throws ExceptionHarga, ExceptionJumlahPembelian {
         Supermarket barang1 = new Supermarket(2131, "Coklat", "pabrik1");
         barang1.tampil();
