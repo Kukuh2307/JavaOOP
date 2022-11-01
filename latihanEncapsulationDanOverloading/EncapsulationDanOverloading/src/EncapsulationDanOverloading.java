@@ -22,8 +22,8 @@ class mahasiswa {
     }
   
     // getter npm untuk menegah pengguna mengubah nilai dari npm
-    public int getNPM(int npm) {
-      return this.npm = npm;
+    public String getNPM() {
+      return "NPM : "+npm;
     }
     
     // menampilkan data mahasiswa
@@ -43,7 +43,7 @@ class mahasiswa {
   
       mahasiswa mhs2 = new mahasiswa("Sandhika Galih");
       mhs2.setNPM(2113020282);
-      mhs2.tampil();
+      System.out.println(mhs2.getNPM());
     }
   }
 

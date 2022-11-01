@@ -11,7 +11,6 @@ public class MyApp {
             MyApp app1 = new MyApp();
             System.out.println(app1.name);
             app1.getNilai();
-            MyApp app2;
         }
         catch(ArithmeticException obj){
             System.out.println("Error, Ada pembagian dengan 0");

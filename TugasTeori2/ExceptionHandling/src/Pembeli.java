@@ -1,9 +1,9 @@
 public class Pembeli {
-    public static void main(String[] args) throws ExceptionHarga, ExceptionJumlahPembelian {
+    public static void main(String[] args) throws ExceptionHarga,ExceptionJumlahPembelian{
         Supermarket barang1 = new Supermarket(2131, "Coklat", "pabrik1");
         barang1.tampil();
-        barang1.setHarga(10000);
-        barang1.setJumlahPembelian(-1);
+        barang1.setHarga(15000);
+        barang1.setJumlahPembelian(-2);
         try {
             barang1.ketentuanHarga();
             barang1.ketentuanJumlahPembelian();

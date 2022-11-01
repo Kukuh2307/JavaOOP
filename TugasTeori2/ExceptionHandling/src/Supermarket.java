@@ -11,17 +11,11 @@ public class Supermarket {
     public void setJumlahPembelian(int banyak){
         jumlahPembelian = banyak;
     }
-    // public String getJumlahPembelian(){
-    //     String keterangan = "Harga barang : "+jumlahPembelian;
-    //     return keterangan;
-    // }
+
     public void setHarga(int harga){
         this.harga = harga;
     }
-    // public String getHarga(){
-    //     String keterangan = "Harga barang : "+this.harga;
-    //     return keterangan;
-    // }
+
     public void tampil(){
         System.out.println("=========================");
         System.out.println("Kode barang : "+this.kodeBarang);

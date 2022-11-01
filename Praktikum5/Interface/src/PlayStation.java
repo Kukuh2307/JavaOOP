@@ -1,5 +1,3 @@
-import javax.swing.plaf.PanelUI;
-
 public class PlayStation implements Kendali {
     String jenis;
 
