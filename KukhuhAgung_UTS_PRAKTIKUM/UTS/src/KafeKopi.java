@@ -15,6 +15,7 @@ public class KafeKopi {
         System.out.println("Alamat Kafe \t: "+this.alamatKafe);
     }
 
+    // makanan yang di beli
     public int pisangCoklat(){
         int harga = 8500;
         int hargatotal = getPisangCoklat() * harga;
@@ -39,6 +40,8 @@ public class KafeKopi {
         int hargatotal = banyak * harga;
         return hargatotal;
     }
+
+    // makanan yang di beli
     public int pukisKeju(){
         int harga = 10000;
         int hargatotal = getPukisKeju() * harga;
@@ -64,6 +67,8 @@ public class KafeKopi {
         int hargatotal = banyak * harga;
         return hargatotal;
     }
+    
+    // minuman yang di beli
     public int mocacino(){
         int harga = 13000;
         int hargatotal = getMocacino()* harga;
